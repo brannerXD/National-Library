@@ -8,8 +8,8 @@ def calculate_statistics(registration):#with this, it should calculate the price
     print("Choose one option: ")
     view_gain = (input("1. Gross profit\n2. Ganancia Neta\n"))
     taxes = 0.5
-    Y = tickets['Amount']
-    X = tickets['Price']
+    Y = ticket['Amount']
+    X = ticket['Price']
     Gross_profit = X * Y
     net_profit = Gross_profit / taxes
     if view_gain == ("1"):
